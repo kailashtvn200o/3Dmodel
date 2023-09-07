@@ -22,11 +22,11 @@ function ModelViewer() {
       <OrbitControls
         enableDamping
         dampingFactor={0.5}
-        target={[100, 70, 50]} 
+        target={[0, 0, 0]} 
       />
       <PerspectiveCamera
         makeDefault
-        position={[100, 80,10]}
+        position={[10,0,5]} //x-axis,y-axis,z-axis
         fov={30}
       />
 
@@ -39,7 +39,7 @@ function ModelViewer() {
         <primitive 
         object={gltf.scene} 
         ref={modelRef}
-        position={[100,0,0]}
+        position={[10,50,50]}
         />
 
       </group>
