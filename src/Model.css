@@ -1,0 +1,16 @@
+.rectangle{
+    
+    right:295px;
+    /* top: 91px; */
+   
+    /* justify-content: flex-start; */
+    display: flex;
+    width: 647px;
+    height: 797px;
+    border: 0px solid black;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+    border-radius: 30px;
+    color: white;
+    margin-left: 38%;
+    margin-top: 25%;
+}

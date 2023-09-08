@@ -1,0 +1,111 @@
+/* Collor.css */
+
+/* Define styles for the class options */
+.rectangle1 {
+    display: flex;
+    width: 354%;
+    height: 105px;
+    border: 0px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 30px;
+    color: white;
+    margin-left: 173%;
+    margin-top: 25%;
+  }
+  .img1{
+    width: 179px;
+    margin-left: 30rem;
+    margin-top: 128px;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .img2{
+    width: 161px;
+    margin-left: 53rem;
+    margin-top: 139px;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .img3{
+    width: 161px;
+    margin-left: 76rem;
+    margin-top: 139px;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .img4{
+    width: 179px;
+    margin-left: 21rem;
+    margin-top: 384px;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .img5{
+    width: 161px;
+    margin-left: 44rem;
+    margin-top: 384px;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .img6{
+    width: 161px;
+    margin-left: 67rem;
+    margin-top: 384px;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .rectangle1 > div {
+    margin-right: 20px;
+    cursor: pointer;
+    text-decoration: none; /* Remove underline by default */
+    color: black; /* Define the text color */
+  }
+  
+  /* Add underline effect when hovering over the class options */
+  .rectangle1 > div:hover {
+    text-decoration: underline;
+  }
+  
+.collor{
+    color: black;
+    font-weight: 500;
+    font-size: 23px;
+    margin-top: 36px;
+    margin-left: 30px;
+}
+.back{
+    color: black;
+    font-weight: 500;
+    font-size: 23px;
+    margin-top: 36px;
+    margin-left: 15%;
+}
+.plackets{
+    color: black;
+    font-weight: 500;
+    font-size: 23px;
+    margin-top: 36px;
+    margin-left: 15%;
+}
+.sleeves{
+    color: black;
+    font-weight: 500;
+    font-size: 23px;
+    margin-top: 36px;
+    margin-left: 113px;
+}
+.class-option {
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+    /* Add any other styles you want for unselected options */
+  }
+  .class-option.selected{
+    text-decoration: underline;
+    color: black;
+    font-weight: 500;
+    font-size: 23px;
+    margin-top: 36px;
+    margin-left: 30px;
+}

@@ -2,13 +2,22 @@ import React, { useRef } from 'react';
 import { Canvas, useLoader, useFrame,extend, useThree } from 'react-three-fiber';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader';
 import { OrbitControls,PerspectiveCamera } from '@react-three/drei';
+import Header from './Header'
+import Footer from './Footer'
+import Collor from './Collor';
+import './Model.css'
 function ModelViewer() {
   const gltfUrl = '/scene.gltf'; 
   const modelRef = useRef();  
   const gltf = useLoader(GLTFLoader, gltfUrl);
   return (
+    <>
+  
+   
+    
+    <div className='rectangle'>
     <Canvas
-      style={{ height: '100vh', width: '70vw' }}>    
+      style={{ height: '800px', width: '700px' }}>    
       <OrbitControls
         enableDamping
         dampingFactor={0.5}
@@ -29,6 +38,10 @@ function ModelViewer() {
         />
       </group>
     </Canvas>
+    </div>
+    
+   
+    </>
   );
 }
 export default ModelViewer;
